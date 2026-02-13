@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>絶品！塩ロールパンの作り方</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700&family=Zen+Maru+Gothic:wght@500;700&display=swap" rel="stylesheet">
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ['"Noto Sans JP"', 'sans-serif'],
+              display: ['"Zen Maru Gothic"', 'sans-serif'],
+            },
+            colors: {
+              bread: {
+                50: '#fdfbf7',
+                100: '#f7f1e3',
+                200: '#efe0c5',
+                300: '#e5ca9e',
+                400: '#d9ad72',
+                500: '#cc8e4a',
+                600: '#b0723a',
+                700: '#8c5831',
+                800: '#73482e',
+                900: '#5e3c29',
+              }
+            }
+          }
+        }
+      }
+    </script>
+  <script type="importmap">
+{
+  "imports": {
+    "lucide-react": "https://esm.sh/lucide-react@^0.564.0",
+    "@google/genai": "https://esm.sh/@google/genai@^1.41.0",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.4/",
+    "react/": "https://esm.sh/react@^19.2.4/",
+    "react": "https://esm.sh/react@^19.2.4"
+  }
+}
+</script>
+</head>
+  <body class="bg-bread-50 text-bread-900 font-sans antialiased">
+    <div id="root"></div>
+  </body>
+</html>
